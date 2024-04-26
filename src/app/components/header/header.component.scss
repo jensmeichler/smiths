@@ -35,6 +35,10 @@
   &__link-list {
     display: flex;
     align-items: center;
-    gap: var(--dynamic-margin-2);
+    margin-right: -1rem;
+
+    a {
+      padding: 1rem;
+    }
   }
 }
