@@ -24,10 +24,9 @@
     align-items: center;
     gap: var(--dynamic-margin-2);
 
-    &__sub {
-      @media screen and (max-width: 600px) {
-        display: none;
-      }
+    &__logo {
+      filter: invert(1);
+      height: 2.5rem;
     }
   }
 
