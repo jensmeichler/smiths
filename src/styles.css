@@ -43,6 +43,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .container {
   margin-left: var(--dynamic-margin-3);
   margin-right: var(--dynamic-margin-3);
+
+  @media screen and (min-width: 1900px) {
+    max-width: calc(1900px - (2 * var(--dynamic-margin-3)));
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .text-center {
   text-align: center;
