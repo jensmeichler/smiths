@@ -27,12 +27,23 @@
       </p>
     </div>
 
-    <a href="https://wa.me/491712771558">
+    <a class="grow-on-hover" href="https://wa.me/491712771558">
       <img src="assets/svg/whatsapp.svg" height="64" alt="Whatsapp">
     </a>
 
-    <a href="https://instagram.com/smith_discs?igshid=MTNiYzNiMzkwZA==">
+    <a class="grow-on-hover" href="https://instagram.com/smith_discs?igshid=MTNiYzNiMzkwZA==">
       <img src="assets/svg/instagram.svg" height="64" alt="Instagram">
+    </a>
+  </div>
+
+  <div class="footer__signatures">
+    <a class="footer__signatures__badge" href="https://github.com/jensmeichler" target="_blank" rel="nofollow">
+      <p>
+        <ng-container *ngIf="narrow$ | async; else wide">Made with</ng-container>
+        <ng-template #wide>Website made with</ng-template>
+        <img class="footer__signatures__badge__heart" src="assets/svg/heart.svg" width="16" height="16" alt="Heart">
+        by Jens Meichler
+      </p>
     </a>
   </div>
 </section>

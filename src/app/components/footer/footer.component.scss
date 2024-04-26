@@ -4,6 +4,13 @@
   background-size: cover;
 }
 
+.grow-on-hover {
+  transition: all ease-in-out 160ms;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .footer {
   background-color: #000000B2;
   backdrop-filter: blur(12px);
@@ -20,6 +27,33 @@
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
       justify-items: flex-start;
+    }
+  }
+}
+
+.footer__signatures {
+  display: flex;
+  padding-bottom: 2rem;
+  justify-content: center;
+  @media screen {
+    @media (max-width: 649px) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__badge {
+    background-color: #00000066;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+
+    transition: all ease-in-out 160ms;
+    &:hover {
+      background: #FFFFFF8E;
+      color: black;
+    }
+
+    &__heart {
+      margin: 0 .5rem;
     }
   }
 }
