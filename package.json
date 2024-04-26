@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --configuration=production --base-href=/smiths/",
-    "deploy": "npm run build:prod && npx angular-cli-ghpages --dir=dist/smiths",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
