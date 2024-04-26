@@ -35,11 +35,6 @@
   display: flex;
   padding-bottom: 2rem;
   justify-content: center;
-  @media screen {
-    @media (max-width: 649px) {
-      justify-content: flex-start;
-    }
-  }
 
   &__badge {
     background-color: #00000066;
