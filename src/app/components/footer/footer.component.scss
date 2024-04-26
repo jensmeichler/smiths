@@ -1,0 +1,25 @@
+:host {
+  display: block;
+  width: 100%;
+  background-size: cover;
+}
+
+.footer {
+  background-color: #000000B2;
+  backdrop-filter: blur(12px);
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    > * {
+      justify-self: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      justify-items: flex-start;
+    }
+  }
+}

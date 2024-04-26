@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, HostBinding} from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -8,4 +8,6 @@ import {Component} from '@angular/core';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
+  @HostBinding('style.background-image')
+  background = 'url("assets/img/hero.jpg")';
 }
