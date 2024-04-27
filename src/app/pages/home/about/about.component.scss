@@ -1,0 +1,13 @@
+.about {
+  display: flex;
+  align-items: center;
+  gap: min(6vw, 4rem);
+
+  &__img {
+    border-radius: 999px;
+    background: white;
+    aspect-ratio: 1;
+    object-fit: contain;
+    width: 33%;
+  }
+}
