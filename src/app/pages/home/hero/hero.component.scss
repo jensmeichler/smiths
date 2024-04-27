@@ -1,7 +1,7 @@
 :host {
   --hero-height: 66vh;
   @media screen and (max-width: 1023.8px) {
-    --hero-height: 33vh;
+    --hero-height: 50vh;
   }
 }
 
@@ -11,6 +11,7 @@
   z-index: -1;
   img {
     height: var(--hero-height);
+    width: 100%;
   }
 }
 
@@ -37,7 +38,7 @@
       align-items: center;
     }
     @media (max-width: 1023.8px) {
-      padding-top: calc(var(--header-height) + 20vw);
+      padding-top: 20vw;
     }
   }
 }
@@ -47,14 +48,14 @@
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-
   max-width: 800px;
+  margin-top: var(--header-height);
 
   @media screen and (max-width: 1023.8px) {
     background: #00000073;
     backdrop-filter: blur(12px);
     padding: 2rem;
-    border-radius: 3.5rem;
+    border-radius: 2.5rem;
   }
 
   &__headline-secondary {
