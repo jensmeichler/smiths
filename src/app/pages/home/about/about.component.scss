@@ -3,6 +3,11 @@
   align-items: center;
   gap: min(6vw, 4rem);
 
+  @media screen and (max-width: 600px) {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
   &__img {
     border-radius: 999px;
     background: white;
