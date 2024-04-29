@@ -4,30 +4,33 @@
   background-size: cover;
 }
 
-.grow-on-hover {
-  transition: all ease-in-out 160ms;
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
 .footer {
   height: 100%;
   background-color: #000000B2;
   backdrop-filter: blur(12px);
 
   &__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    > * {
-      justify-self: center;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 520px) {
+      flex-wrap: wrap;
+      > * {
+        flex-basis: 50%;
+        &:nth-child(3) {
+          text-align: end;
+        }
+        &:nth-child(4) {
+          text-align: start;
+        }
+      }
     }
 
-    @media screen and (max-width: 768px) {
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-      justify-items: flex-start;
+    &__btn {
+      transition: all ease-in-out 160ms;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
