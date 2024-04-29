@@ -1,4 +1,12 @@
 :root {
+  --color-primary: #008ea7;
+  --color-primary-contrast: white;
+  --color-primary-active: #00598Cff;
+  --color-secondary: #fffe33;
+  --color-secondary-contrast: black;
+  --opacity-dark: #00000041;
+  --opacity-light: #ffffff41;
+
   --header-height: 4rem;
   --dynamic-margin-2: 1rem;
   --dynamic-margin-3: 1rem;
@@ -168,6 +176,10 @@ img {
 }
 hr {
   border: 0;
-  border-top: 1px solid #c25600;
+  border-top: 1px solid var(--opacity-light);
   margin: 1rem 0;
+}
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-contrast);
 }

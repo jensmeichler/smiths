@@ -37,6 +37,11 @@
 
     a {
       padding: 1rem;
+      border-radius: 2.5rem;
+      transition: background-color ease-in-out 160ms;
+      &:hover {
+        background-color: var(--opacity-dark);
+      }
     }
   }
 }
