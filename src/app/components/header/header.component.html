@@ -2,14 +2,31 @@
   <h1 class="header__headline">
     <img class="header__headline__logo" src="assets/img/logo.png">
   </h1>
-  <ul class="header__link-list">
+  <ul
+    class="header__link-list"
+    *ngIf="state$ | async as state"
+  >
     <li>
       <a
         href="https://59913f-3.myshopify.com/"
         target="_blank"
         rel="nofollow"
       >
-        Online Store
+        <img *ngIf="!state.showStoreText; else storeText" class="mr-3" src="assets/svg/store.svg" height="16">
+        <ng-template #storeText>
+          Online Store
+        </ng-template>
+      </a>
+    </li>
+    <li>
+      <a
+        (click)="scrollToOpeningHours()"
+        type="button"
+      >
+        <img *ngIf="!state.showOpeningHoursText; else openingHoursText" class="mx-3" src="assets/svg/calendar-days.svg" height="16">
+        <ng-template #openingHoursText>
+          Öffnungszeiten
+        </ng-template>
       </a>
     </li>
     <li>
@@ -18,7 +35,10 @@
         target="_blank"
         rel="nofollow"
       >
-        Anfahrt
+        <img *ngIf="!state.showArriveText; else arriveText" class="ml-3" src="assets/svg/map-location-dot.svg" height="16">
+        <ng-template #arriveText>
+          Anfahrt
+        </ng-template>
       </a>
     </li>
   </ul>

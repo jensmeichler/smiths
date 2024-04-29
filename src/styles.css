@@ -5,7 +5,7 @@
   --color-secondary: #fffe33;
   --color-secondary-contrast: black;
   --opacity-dark: #00000041;
-  --opacity-light: #ffffff41;
+  --opacity-light: #ffffff14;
 
   --header-height: 4rem;
   --dynamic-margin-2: 1rem;
@@ -59,28 +59,6 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 .text-center { text-align: center }
-.mt-1, .my-1, .m-1 { margin-top: 0.125rem }
-.mt-2, .my-2, .m-2 { margin-top: 0.25rem }
-.mt-3, .my-3, .m-3 { margin-top: 0.5rem }
-.mt-4, .my-4, .m-4 { margin-top: 1rem }
-.mt-5, .my-5, .m-5 { margin-top: 1.5rem }
-.mt-6, .my-6, .m-6 { margin-top: 2rem }
-.mt-7, .my-7, .m-7 { margin-top: 3rem }
-.mt-8, .my-8, .m-8 { margin-top: 4rem }
-.mt-9, .my-9, .m-9 { margin-top: 8rem }
-.mt-d2, .my-d2, .m-d2 { margin-top: var(--dynamic-margin-2) }
-.mt-d3, .my-d3, .m-d3 { margin-top: var(--dynamic-margin-3) }
-.mb-1, .my-1, .m-1 { margin-bottom: 0.125rem }
-.mb-2, .my-2, .m-2 { margin-bottom: 0.25rem }
-.mb-3, .my-3, .m-3 { margin-bottom: 0.5rem }
-.mb-4, .my-4, .m-4 { margin-bottom: 1rem }
-.mb-5, .my-5, .m-5 { margin-bottom: 1.5rem }
-.mb-6, .my-6, .m-6 { margin-bottom: 2rem }
-.mb-7, .my-7, .m-7 { margin-bottom: 3rem }
-.mb-8, .my-8, .m-8 { margin-bottom: 4rem }
-.mb-9, .my-9, .m-9 { margin-bottom: 8rem }
-.mb-d2, .my-d2, .m-d2 { margin-bottom: var(--dynamic-margin-2) }
-.mb-d3, .my-d3, .m-d3 { margin-bottom: var(--dynamic-margin-3) }
 .pt-1, .py-1, .p-1 { padding-top: 0.125rem }
 .pt-2, .py-2, .p-2 { padding-top: 0.25rem }
 .pt-3, .py-3, .p-3 { padding-top: 0.5rem }
@@ -103,28 +81,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .pb-9, .py-9, .p-9 { padding-bottom: 8rem }
 .pb-d2, .py-d2, .p-d2 { padding-bottom: var(--dynamic-margin-2) }
 .pb-d3, .py-d3, .p-d3 { padding-bottom: var(--dynamic-margin-3) }
-.ml-1, .mx-1, .m-1 { margin-left: 0.125rem }
-.ml-2, .mx-2, .m-2 { margin-left: 0.25rem }
-.ml-3, .mx-3, .m-3 { margin-left: 0.5rem }
-.ml-4, .mx-4, .m-4 { margin-left: 1rem }
-.ml-5, .mx-5, .m-5 { margin-left: 1.5rem }
-.ml-6, .mx-6, .m-6 { margin-left: 2rem }
-.ml-7, .mx-7, .m-7 { margin-left: 3rem }
-.ml-8, .mx-8, .m-8 { margin-left: 4rem }
-.ml-9, .mx-9, .m-9 { margin-left: 8rem }
-.ml-d2, .mx-d2, .m-d2 { margin-left: var(--dynamic-margin-2) }
-.ml-d3, .mx-d3, .m-d3 { margin-left: var(--dynamic-margin-3) }
-.mr-1, .mx-1, .m-1 { margin-right: 0.125rem }
-.mr-2, .mx-2, .m-2 { margin-right: 0.25rem }
-.mr-3, .mx-3, .m-3 { margin-right: 0.5rem }
-.mr-4, .mx-4, .m-4 { margin-right: 1rem }
-.mr-5, .mx-5, .m-5 { margin-right: 1.5rem }
-.mr-6, .mx-6, .m-6 { margin-right: 2rem }
-.mr-7, .mx-7, .m-7 { margin-right: 3rem }
-.mr-8, .mx-8, .m-8 { margin-right: 4rem }
-.mr-9, .mx-9, .m-9 { margin-right: 8rem }
-.mr-d2, .mx-d2, .m-d2 { margin-right: var(--dynamic-margin-2) }
-.mr-d3, .mx-d3, .m-d3 { margin-right: var(--dynamic-margin-3) }
 .pl-1, .px-1, .p-1 { padding-left: 0.125rem }
 .pl-2, .px-2, .p-2 { padding-left: 0.25rem }
 .pl-3, .px-3, .p-3 { padding-left: 0.5rem }
@@ -147,6 +103,94 @@ p, h1, h2, h3, h4, h5, h6 {
 .pr-9, .px-9, .p-9 { padding-right: 8rem }
 .pr-d2, .px-d2, .p-d2 { padding-right: var(--dynamic-margin-2) }
 .pr-d3, .px-d3, .p-d3 { padding-right: var(--dynamic-margin-3) }
+.mt-1, .my-1, .m-1 { margin-top: 0.125rem }
+.mt-2, .my-2, .m-2 { margin-top: 0.25rem }
+.mt-3, .my-3, .m-3 { margin-top: 0.5rem }
+.mt-4, .my-4, .m-4 { margin-top: 1rem }
+.mt-5, .my-5, .m-5 { margin-top: 1.5rem }
+.mt-6, .my-6, .m-6 { margin-top: 2rem }
+.mt-7, .my-7, .m-7 { margin-top: 3rem }
+.mt-8, .my-8, .m-8 { margin-top: 4rem }
+.mt-9, .my-9, .m-9 { margin-top: 8rem }
+.mt-d2, .my-d2, .m-d2 { margin-top: var(--dynamic-margin-2) }
+.mt-d3, .my-d3, .m-d3 { margin-top: var(--dynamic-margin-3) }
+.mb-1, .my-1, .m-1 { margin-bottom: 0.125rem }
+.mb-2, .my-2, .m-2 { margin-bottom: 0.25rem }
+.mb-3, .my-3, .m-3 { margin-bottom: 0.5rem }
+.mb-4, .my-4, .m-4 { margin-bottom: 1rem }
+.mb-5, .my-5, .m-5 { margin-bottom: 1.5rem }
+.mb-6, .my-6, .m-6 { margin-bottom: 2rem }
+.mb-7, .my-7, .m-7 { margin-bottom: 3rem }
+.mb-8, .my-8, .m-8 { margin-bottom: 4rem }
+.mb-9, .my-9, .m-9 { margin-bottom: 8rem }
+.mb-d2, .my-d2, .m-d2 { margin-bottom: var(--dynamic-margin-2) }
+.mb-d3, .my-d3, .m-d3 { margin-bottom: var(--dynamic-margin-3) }
+.ml-1, .mx-1, .m-1 { margin-left: 0.125rem }
+.ml-2, .mx-2, .m-2 { margin-left: 0.25rem }
+.ml-3, .mx-3, .m-3 { margin-left: 0.5rem }
+.ml-4, .mx-4, .m-4 { margin-left: 1rem }
+.ml-5, .mx-5, .m-5 { margin-left: 1.5rem }
+.ml-6, .mx-6, .m-6 { margin-left: 2rem }
+.ml-7, .mx-7, .m-7 { margin-left: 3rem }
+.ml-8, .mx-8, .m-8 { margin-left: 4rem }
+.ml-9, .mx-9, .m-9 { margin-left: 8rem }
+.ml-d2, .mx-d2, .m-d2 { margin-left: var(--dynamic-margin-2) }
+.ml-d3, .mx-d3, .m-d3 { margin-left: var(--dynamic-margin-3) }
+.mr-1, .mx-1, .m-1 { margin-right: 0.125rem }
+.mr-2, .mx-2, .m-2 { margin-right: 0.25rem }
+.mr-3, .mx-3, .m-3 { margin-right: 0.5rem }
+.mr-4, .mx-4, .m-4 { margin-right: 1rem }
+.mr-5, .mx-5, .m-5 { margin-right: 1.5rem }
+.mr-6, .mx-6, .m-6 { margin-right: 2rem }
+.mr-7, .mx-7, .m-7 { margin-right: 3rem }
+.mr-8, .mx-8, .m-8 { margin-right: 4rem }
+.mr-9, .mx-9, .m-9 { margin-right: 8rem }
+.mr-d2, .mx-d2, .m-d2 { margin-right: var(--dynamic-margin-2) }
+.mr-d3, .mx-d3, .m-d3 { margin-right: var(--dynamic-margin-3) }
+.mt-n1, .my-n1, .m-n1 { margin-top: -0.125rem }
+.mt-n2, .my-n2, .m-n2 { margin-top: -0.25rem }
+.mt-n3, .my-n3, .m-n3 { margin-top: -0.5rem }
+.mt-n4, .my-n4, .m-n4 { margin-top: -1rem }
+.mt-n5, .my-n5, .m-n5 { margin-top: -1.5rem }
+.mt-n6, .my-n6, .m-n6 { margin-top: -2rem }
+.mt-n7, .my-n7, .m-n7 { margin-top: -3rem }
+.mt-n8, .my-n8, .m-n8 { margin-top: -4rem }
+.mt-n9, .my-n9, .m-n9 { margin-top: -8rem }
+.mt-nd2, .my-nd2, .m-nd2 { margin-top: calc(var(--dynamic-margin-2) * -1) }
+.mt-nd3, .my-nd3, .m-nd3 { margin-top: calc(var(--dynamic-margin-3) * -1) }
+.mb-n1, .my-n1, .m-n1 { margin-bottom: -0.125rem }
+.mb-n2, .my-n2, .m-n2 { margin-bottom: -0.25rem }
+.mb-n3, .my-n3, .m-n3 { margin-bottom: -0.5rem }
+.mb-n4, .my-n4, .m-n4 { margin-bottom: -1rem }
+.mb-n5, .my-n5, .m-n5 { margin-bottom: -1.5rem }
+.mb-n6, .my-n6, .m-n6 { margin-bottom: -2rem }
+.mb-n7, .my-n7, .m-n7 { margin-bottom: -3rem }
+.mb-n8, .my-n8, .m-n8 { margin-bottom: -4rem }
+.mb-n9, .my-n9, .m-n9 { margin-bottom: -8rem }
+.mb-nd2, .my-nd2, .m-nd2 { margin-bottom: calc(var(--dynamic-margin-2) * -1) }
+.mb-nd3, .my-nd3, .m-nd3 { margin-bottom: calc(var(--dynamic-margin-3) * -1) }
+.ml-n1, .mx-n1, .m-n1 { margin-left: -0.125rem }
+.ml-n2, .mx-n2, .m-n2 { margin-left: -0.25rem }
+.ml-n3, .mx-n3, .m-n3 { margin-left: -0.5rem }
+.ml-n4, .mx-n4, .m-n4 { margin-left: -1rem }
+.ml-n5, .mx-n5, .m-n5 { margin-left: -1.5rem }
+.ml-n6, .mx-n6, .m-n6 { margin-left: -2rem }
+.ml-n7, .mx-n7, .m-n7 { margin-left: -3rem }
+.ml-n8, .mx-n8, .m-n8 { margin-left: -4rem }
+.ml-n9, .mx-n9, .m-n9 { margin-left: -8rem }
+.ml-nd2, .mx-nd2, .m-nd2 { margin-left: calc(var(--dynamic-margin-2) * -1) }
+.ml-nd3, .mx-nd3, .m-nd3 { margin-left: calc(var(--dynamic-margin-3) * -1) }
+.mr-n1, .mx-n1, .m-n1 { margin-right: -0.125rem }
+.mr-n2, .mx-n2, .m-n2 { margin-right: -0.25rem }
+.mr-n3, .mx-n3, .m-n3 { margin-right: -0.5rem }
+.mr-n4, .mx-n4, .m-n4 { margin-right: -1rem }
+.mr-n5, .mx-n5, .m-n5 { margin-right: -1.5rem }
+.mr-n6, .mx-n6, .m-n6 { margin-right: -2rem }
+.mr-n7, .mx-n7, .m-n7 { margin-right: -3rem }
+.mr-n8, .mx-n8, .m-n8 { margin-right: -4rem }
+.mr-n9, .mx-n9, .m-n9 { margin-right: -8rem }
+.mr-nd2, .mx-nd2, .m-nd2 { margin-right: calc(var(--dynamic-margin-2) * -1) }
+.mr-nd3, .mx-nd3, .m-nd3 { margin-right: calc(var(--dynamic-margin-3) * -1) }
 
 /**
  * Typography
