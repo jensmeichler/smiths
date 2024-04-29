@@ -15,7 +15,9 @@
 
     @media screen and (max-width: 520px) {
       flex-wrap: wrap;
+
       > * {
+        margin-top: 1.5rem;
         flex-basis: 50%;
         &:nth-child(3) {
           text-align: end;
@@ -24,11 +26,17 @@
           text-align: start;
         }
       }
+
+      img {
+        margin: 1.5rem;
+      }
     }
 
     &__btn {
-      transition: all ease-in-out 160ms;
-      &:hover {
+      img {
+        transition: transform ease-in-out 160ms;
+      }
+      &:hover img {
         transform: scale(1.1);
       }
     }
